@@ -1,31 +1,76 @@
 .message {
-
+    position: relative;
+    width: 150px;
+    height: 70px;
+    left: 33%;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .imageAndText {
-
+    position: relative;
+    width: 250px;
+    height: 50px;
 }
 
 .imageAndText img {
-
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
 }
 
 .text {
+    position: absolute;
+    top: 0;
+    left: 65px;
+    padding: 7px 25px 30px 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    height: 60px;
+    background: #0066CC;
+    border: none;
+    border-radius: 25px 15px 15px 0;
+    box-shadow: 0px 5px 20px rgba(29, 33, 38, 0.03), 0px 1px 2px rgba(29, 33, 38, 0.1);
 
 }
 
-.text:after {
-
+.text::after {
+    /*content: "";*/
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    /*right: 100%;*/
+    /*display: block;*/
+    /*width: 20px;*/
+    /*height: 20px;*/
+    /*background: radial-gradient(40px at top left, transparent 50%, rgba(79, 79, 79, 0.6) 0) no-repeat right bottom;*/
 }
 
 .name {
-
+    padding: 5px 5px 0 5px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
 }
 
 .messageText {
-
+    padding: 0 5px 0 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
 }
 
 .time {
-
+    position: absolute;
+    top: 100px;
+    left: 15px;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    color: #000000;
 }
