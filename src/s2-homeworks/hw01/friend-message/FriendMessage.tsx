@@ -36,7 +36,7 @@ const FriendMessage = (props: FriendMessageType) => {
                         className={s.friendMessageText}
                     >
                         {/*создаёт студент*/}
-                        Hello, how are you, what did you do yesterday?
+                            Some new text
                         {/**/}
                     </pre>
                 </div>
