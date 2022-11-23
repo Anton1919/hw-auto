@@ -13,7 +13,7 @@ export const pureAddUser = (
 	setName: (name: string) => void,
 	addUserCallback: (name: string) => void) => {
 
-	if (name === '') {
+	if (name === '    ') {
 		return setError("Ошибка! Введите имя!")
 	} else {
 		addUserCallback(name)
