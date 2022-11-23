@@ -10,6 +10,8 @@
 }
 
 .error {
+    color: #CC1439;
+    border-radius: 5px;
 }
 
 .input {
@@ -25,7 +27,7 @@
 .errorInput {
     width: 372px;
     min-height: 36px;
-    border: 1px solid #D1D1D1;
+    border: 1px solid #CC1439;
     border-radius: 5px;
 }
 
