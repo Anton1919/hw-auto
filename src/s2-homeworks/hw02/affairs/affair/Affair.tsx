@@ -10,9 +10,9 @@ type AffairPropsType = {
 }
 
 function Affair(props: AffairPropsType) {
-    console.log(props)
+    // console.log(props)
     const deleteCallback = () => {
-     props.deleteAffairCallback( props.affair._id)
+     props.deleteAffairCallback(props.affair._id)
     }
 
     const nameClass = s.name + ' ' + s2[props.affair.priority]
