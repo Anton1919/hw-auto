@@ -53,8 +53,8 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({
 
 		error && setError("")
 	}
+
 	const addUser = () => {
-		console.log(name, ' adduser')
 		pureAddUser(name, setError, setName, addUserCallback)
 	}
 
@@ -66,10 +66,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({
 		pureOnEnter(e, addUser)
 	}
 	const totalUsers = users.length // need to fix
-	const lastUserName = /*'aaa'*/totalUsers > 0 ? users[totalUsers - 1].name : '' // need to fix
-
-
-	// a? a : b //a ?? b // a||b
+	const lastUserName = totalUsers > 0 ? users[totalUsers - 1].name : '' // need to fix
 
 	return (
 		<Greeting
