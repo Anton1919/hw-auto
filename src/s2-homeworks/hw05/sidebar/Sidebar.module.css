@@ -1,23 +1,17 @@
 .sidebar {
     width: 300px;
     background-color: lightgray;
-    color: white;
-    height: 100vh;
+    height: 50vh;
+    /*display: none;*/
 }
 
-.active {
-    color: red;
-    font-size: 30px;
-    font-weight: bold;
-    margin-top: 15px;
-    text-decoration: none;
-}
 
 .sidebar.open {
+    /*display: block;*/
 }
 
 .background {
-    opacity: .5;
+
 }
 
 .nav {
@@ -33,7 +27,7 @@
     font-weight: bold;
     margin-top: 15px;
     text-decoration: none;
-    color: black;
+    /*color: black;*/
 
 }
 
@@ -43,12 +37,19 @@
 .nav a.active {
 }
 .close {
-    margin-left: 85%;
-    margin-top: 20px;
-    border: none;
-    background-color: lightgray;
-
+    /*margin-left: 85%;*/
+    /*margin-top: 20px;*/
+    /*border: none;*/
+    /*background-color: lightgray;*/
 }
 
 .close img {
+}
+
+.active {
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 15px;
+    text-decoration: none;
 }
