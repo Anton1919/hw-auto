@@ -1,13 +1,15 @@
 .sidebar {
+    position: absolute;
     width: 300px;
     background-color: lightgray;
     height: 50vh;
-    /*display: none;*/
+    transform: translateY(-100%);
 }
 
 
 .sidebar.open {
-    /*display: block;*/
+    position: absolute;
+    transform: translateY(0%);
 }
 
 .background {
